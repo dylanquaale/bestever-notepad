@@ -7,8 +7,14 @@ const PORT = 3001;
 const app = express();
 
 app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 //creates a route that will serve upp the 'public/notes.html page
+app.get("PATH", function(req,res){
+    res.sendFile(__dirname+"FILE PATH")
+})
 
 app.get('/notes'),(req, res) =>
 res.sendFile(path.join(__dirname,'notes.html'));
@@ -45,5 +51,6 @@ const addNote = (note) => {
     app.listen(PORT, () =>
     console.log(`App is listening at http://localhost:${PORT}`)
     );
+
 
 
