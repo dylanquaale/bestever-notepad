@@ -1,5 +1,3 @@
-
-
 const { Router } = require("express");
 const express = require("express");
 const fs = require("fs");
@@ -7,12 +5,11 @@ const path = require("path");
 const notes = require("./db/db.json");
 const PORT = 3001;
 const app = express();
+
 app.use(express.json());
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
-
 //creates a route that will serve upp the 'public/notes.html page
-
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/notes.html"));
 });
@@ -28,7 +25,6 @@ app.get("/api/notes", (req, res) => {
 });
 
 // Post route for when notes gets created in HTML.
-
 app.post("/api/notes", (req, res) => {
   console.info(`${req.method} request received to add a note`);
   let response;
@@ -43,6 +39,7 @@ app.post("/api/notes", (req, res) => {
   } else {
     res.status(400).json("Request body must at least contain a note name");
   }
+
   console.log(req.body);
   console.log(notes);
   notes.push(response);
@@ -62,3 +59,5 @@ app.get("/notes", (req, res) => res.json(notes));
 app.listen(PORT, () =>
   console.log(`App is listening at http://localhost:${PORT}`)
 );
+
+
