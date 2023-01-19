@@ -30,7 +30,8 @@
   ## Questions
 
   ## Credits 
-thopstadredner
+ASK BCS: thopstadredner
+ASK BCS: bfortier
 Tutor: Brandon Leek
 GitHub - kristermyr/
 
