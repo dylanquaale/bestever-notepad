@@ -1,4 +1,6 @@
 # bestever-notepad
+https://github.com/dylanquaale/bestever-notepad
+https://pure-bastion-33149.herokuapp.com/
 
   ## Description
   - Special notepad to keep track of tasks 
@@ -15,6 +17,7 @@
       ASK BCS: bfortier,
       ASK BCS: rmoore,
       ASK BCS: dnau,
+      ASK BCS: dilberovicm36,
       Tutor: Brandon Leek,
       GitHub - kristermyr
 
@@ -25,7 +28,6 @@
     You are able to write and save all of your notes.That way you never need to forget anything!
     Nice and simple to use!
     App is deployed with Heroku.
-  ## License
 
   ## Contributing
   Go to my github unzip and download the file 
@@ -36,11 +38,4 @@
   ## Questions
   Any questions should be directed to my email dylanquaale33@gmail.com
   
-  ## Credits 
-  ASK BCS: thopstadredner,
-  ASK BCS: bfortier,
-  ASK BCS: rmoore,
-  Tutor: Brandon Leek,
-  GitHub - kristermyr/
-
 
