@@ -48,10 +48,10 @@ app.post("/api/notes", (req, res) => {
   
 });
 
-app.delete("/api/notes/:id", (req, res) => {
-  deleteNote(req.params.id, tasks);
-  res.json(true);
-});
+// app.delete("/api/notes/:id", (req, res) => {
+//   deleteNote(req.params.id, tasks);
+//   res.json(true);
+// });
 //read the `db.json` file and return all saved notes as JSON.
 app.get("/api/db", (req, res) => res.json(tasks));
 app.get("/api/", (req, res) => res.json(tasks));
@@ -61,4 +61,4 @@ app.listen(PORT, () =>
   console.log(`App is listening at http://localhost:${PORT}`)
 );
 
-
+// app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
