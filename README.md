@@ -14,9 +14,9 @@
       ASK BCS: thopstadredner,
       ASK BCS: bfortier,
       ASK BCS: rmoore,
+      ASK BCS: dnau,
       Tutor: Brandon Leek,
       GitHub - kristermyr
-  - [License](#license)
 
   ## Installation
     npm i 
