@@ -30,6 +30,7 @@
 
   ## Credits 
 thopstadredner
+Tutor: Brandon Leek
 GitHub - kristermyr/
 
 
