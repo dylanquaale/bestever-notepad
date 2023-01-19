@@ -39,18 +39,19 @@ app.post("/api/notes", (req, res) => {
   } else {
     res.status(400).json("Request body must at least contain a note name");
   }
-
+  // write file sync
   console.log(req.body);
   console.log(tasks);
   tasks.push(response);
   fs.writeFileSync("db/db.json", JSON.stringify(tasks));
   res.json(tasks);
-  app.delete("/api/notes/:id", (req, res) => {
-    deleteNote(req.params.id, tasks);
-    res.json(true);
-  });
+  
 });
 
+app.delete("/api/notes/:id", (req, res) => {
+  deleteNote(req.params.id, tasks);
+  res.json(true);
+});
 //read the `db.json` file and return all saved notes as JSON.
 app.get("/api/db", (req, res) => res.json(tasks));
 app.get("/api/", (req, res) => res.json(tasks));
