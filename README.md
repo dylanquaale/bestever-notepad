@@ -14,12 +14,19 @@ https://pure-bastion-33149.herokuapp.com/
   - [Usage](#usage)
       App is deployed with Heroku
   - [Credits](#credits)
+      
       ASK BCS: thopstadredner,
+      
       ASK BCS: bfortier,
+      
       ASK BCS: rmoore,
+      
       ASK BCS: dnau,
+     
       ASK BCS: dilberovicm36,
+      
       Tutor: Brandon Leek,
+      
       GitHub - kristermyr
 
   ## Installation
