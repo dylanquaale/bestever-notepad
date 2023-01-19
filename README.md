@@ -9,7 +9,6 @@
   - 
   - 
   - 
-
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -19,7 +18,9 @@
   ## Installation
 
   ## Usage
-
+    You are able to write and save all of your notes.That way you never need to forget anything!
+    Nice and simple to use!
+    App is deployed with Heroku.
   ## License
 
   ## Contributing
