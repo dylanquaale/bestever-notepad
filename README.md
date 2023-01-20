@@ -29,6 +29,12 @@ https://github.com/dylanquaale/bestever-notepad
       Tutor: Brandon Leek,
       
       GitHub - kristermyr
+      
+      16-Stu_body-Parsing
+      
+      22-Stu_Modular-Routing
+      
+      26-Stu_Heroku
 
   ## Installation
     npm i 
